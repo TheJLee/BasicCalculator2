@@ -1,0 +1,24 @@
+#display{
+  border-style: solid;
+  font-size:20px;
+  height: 30px;
+  width: 295px;
+  text-align: right;
+}
+body{
+  background-color: powderblue;
+}
+div.Background{
+
+  width:300px;
+  height:300px;
+  background:gray;
+  margin:50px auto;
+}
+input{
+  width:72px;
+  height:66px;
+}
+h1{
+  text-align: center;
+}

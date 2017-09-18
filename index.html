@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <script src="myscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Calculator</h1>
+    <div class="Background">
+      <div class = "Top" id = "display"> </div>
+      <div id = "rows">
+        <input type="button" value="7" onclick="displayNum(this)">
+        <input type="button" value="8" onclick="displayNum(this)">
+        <input type="button" value="9" onclick="displayNum(this)">
+        <input type="button" value="+" onclick="displayNum(this)">
+      </div>
+      <div id = "rows">
+        <input type="button" value="4" onclick="displayNum(this)">
+        <input type="button" value="5" onclick="displayNum(this)">
+        <input type="button" value="6" onclick="displayNum(this)">
+        <input type="button" value="-" onclick="displayNum(this)">
+      </div>
+      <div id = "rows">
+        <input type="button" value="1" onclick="displayNum(this)">
+        <input type="button" value="2" onclick="displayNum(this)">
+        <input type="button" value="3" onclick="displayNum(this)">
+        <input type="button" value="*" onclick="displayNum(this)">
+      </div>
+      <div id = "rows">
+        <input type="button" value="0" onclick="displayNum(this)">
+        <input type="button" value="C" onclick="clean()">
+        <input type="button" value="/" onclick="displayNum(this)">
+        <input type="button" value="=" onclick = "answer()">
+      </div>
+    </div>
+  </body>
+</html>
